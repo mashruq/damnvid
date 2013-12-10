@@ -2,3 +2,6 @@
 *.pyo
 *~
 modules/*.damnvid
+dist
+package
+build
