@@ -2,6 +2,8 @@
 @echo ----------------------------
 @echo Trying to delete old setup, if any.
 @del /q ..\DamnVid-setup*
+@echo Switching to /package/dist/ directory.
+@cd ..\package\dist
 @echo Packaging with NSIS.
 @%python%\python -OO ..\..\build-exe\build-nsi.py
 @makensis -V4 -NOCD ..\..\NSIS-win32.nsi
