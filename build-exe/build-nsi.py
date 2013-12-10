@@ -12,7 +12,7 @@ def addToCurFiles(d):
 			addToCurFiles(d+i)
 		else:
 			curfiles.append(d+i)
-addToCurFiles('')
+addToCurFiles('.')
 requiredfiles=open(path2src+'required-files.txt','r')
 reqfiles=requiredfiles.readlines()
 reqfiles.extend(curfiles)

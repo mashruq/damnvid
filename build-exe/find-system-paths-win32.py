@@ -2,7 +2,7 @@ import os, sys
 
 paths={
 	'nsis': ['C:\Program Files\NSIS', 'C:\Program Files (x86)\NSIS'],
-	'python32': ['C:\Python25-x86', 'C:\Python26-x86', 'C:\Python25', 'C:\Python26'],
+	'python32': ['C:\Python25-x86', 'C:\Python26-x86', 'C:\Python25', 'C:\Python26' ,'C:\Python27'],
 	'python64': ['C:\Python25', 'C:\Python26']
 }
 
