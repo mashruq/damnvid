@@ -1,3 +1,7 @@
+@echo Packaging DamnVid for win32.
+@echo ----------------------------
+@echo Trying to delete old setup, if any.
+@del /q ..\DamnVid-setup*
 @call build-app-only-win32.bat /nopause
 @echo Packaging with NSIS.
 @%python%\python -OO ..\..\build-exe\build-nsi.py
