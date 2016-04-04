@@ -1,0 +1,1 @@
+Cf. [DamnVid's home page](http://damnvid.googlecode.com/).
